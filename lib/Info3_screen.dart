@@ -52,7 +52,27 @@ class InfoScreen3 extends StatelessWidget {
                 " Emperor Wu Di (reigned 141 87 B.C.E.) declared Confucianism the official"
                 "state doctrine during the Han Dynasty. Confucius schools were formed at"
                 "this period to teach Confucian ideals. For millennia, Confucianism coexisted"
-                "with Buddhism and Taoism as one of the most important Chinese religions."
+                "with Buddhism and Taoism as one of the most important Chinese religions.",
+                
+                style: GoogleFonts.montserrat(
+                  textStyle: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                    fontSize: 15,
+                    
+                  ),
+                ),
+              ),
+            ),
+          ),
+
+            
+
+          Padding(
+            padding: const EdgeInsets.only(top: 10, left: 7),
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 45),
+              child: Text(
                 "While Confucius is credited with coining the term Confucianism, he was not"
                 "the first to explain many of the Confucianism's key concepts. Rather, he is"
                 "someone who is concerned with the preservation of traditional Chinese knowledge"

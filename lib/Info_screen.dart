@@ -32,7 +32,7 @@ class InfoScreen extends StatelessWidget {
             padding: const EdgeInsets.only(top: 26),
             child: Container(
               child: Image.asset(
-                'assets/conpics/con.png',
+                'assets/conpics/con0.png',
                 width: 310,
                 height: 196,),
             ),
